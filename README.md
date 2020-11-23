@@ -35,5 +35,5 @@ Prepared using info from several resources including documentation and this [boo
    [Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/PCA.py)
 10. [K-means Clustering](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/K_Means_Clustering.ipynb)
 
-   [Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/K-means.py)
+    [Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/K-means.py)
    
