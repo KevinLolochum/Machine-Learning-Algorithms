@@ -6,7 +6,8 @@ Starting off with top ten ML models.
 
 ## Top ten machine learning models
 Prepared using info from several resources including documentation and this [book](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/).
-1. Linear Regression
+1. [Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb)
+
    Code
 2. Logistic Regression
    Code
