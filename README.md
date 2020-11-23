@@ -12,7 +12,7 @@ Prepared using info from several resources including documentation and this [boo
 2. [Logistic Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Logistic_Regression.ipynb)
 
    [Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Logistic%20Regression.py)
-3. Naive Bayes
+3. [Naive Bayes](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive_Bayes.ipynb)
 
    [Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive%20Bayes.py)
 4. [K- Nearest Neighbors (KNN)](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/K_Nearest_Neighbors.ipynb)
