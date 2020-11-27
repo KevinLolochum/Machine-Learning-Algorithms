@@ -2,7 +2,7 @@
 from sklearn.linear_model import LinearRegression
 # define data, create model and fit data
 X = Variables
-Y = f(x)
+Y = Features
 Model = LinearRegression().fit(X, Y)
 # Score model
 Model.score(X, y)
