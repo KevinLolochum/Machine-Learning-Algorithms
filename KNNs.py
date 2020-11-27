@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 # define data, split to train & test, create model and fit data
 X = Variables
 Y = Classes
-Model = KNeighborsClassifier(n_neighbors = 4).fit(X, Y)
+Model = KNeighborsClassifier(n_neighbors = 4, otherparams).fit(X, Y)
 # Predict new classes
 Y_predict = Model.Predict(X_test)
 # Score model
