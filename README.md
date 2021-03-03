@@ -1,4 +1,4 @@
-## Top-Ten-Machine-Learning-Cheatsheet
+## Machine-Learning-Algorithms
 
 This is a cheatsheet for comparing top ten related machine learning concepts.
 The goal of the cheatsheet is to explain ML concepts to a layman/intermediate, hiring manager and a programmer.
