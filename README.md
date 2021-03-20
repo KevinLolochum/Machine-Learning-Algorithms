@@ -6,6 +6,11 @@ Starting off with top ten ML models.
 
 ## Top ten machine learning models
 Prepared using info from several resources including documentation and this [book](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/).
+
+|Algorithm Explanation|Sklearn Code| From Scratch Example|
+|---|---|----|
+|1. |x_value|Y_value|
+
 1. [Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb): 
 - [Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear%20Regression.py)
 2. [Logistic Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Logistic_Regression.ipynb): 
