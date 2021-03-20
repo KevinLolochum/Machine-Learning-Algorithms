@@ -9,7 +9,16 @@ Prepared using info from several resources including documentation and this [boo
 
 |Algorithm Explanation|Sklearn Code| From Scratch Example|
 |---|---|----|
-|1. |x_value|Y_value|
+|1.[Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb) |- [Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear%20Regression.py)|Y_value|
+|2. |x_value|Y_value|
+|3. |x_value|Y_value|
+|4. |x_value|Y_value|
+|5. |x_value|Y_value|
+|6. |x_value|Y_value|
+|7. |x_value|Y_value|
+|8. |x_value|Y_value|
+|9. |x_value|Y_value|
+|10. |x_value|Y_value|
 
 1. [Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb): 
 - [Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear%20Regression.py)
