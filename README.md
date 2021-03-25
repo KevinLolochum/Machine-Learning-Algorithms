@@ -7,6 +7,9 @@ Starting off with top ten ML models.
 ## Top ten machine learning models
 Prepared using info from several resources including documentation and this [book](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/).
 
+1. With the SKlearn code I simply write the code that values can be plugged into to return the classification or regression results
+2. On the from scratch example, I implement by writing my own functions and classes using the minimum possible amount of python libraries (in most cases numpy).
+
 |Algorithm Explanation|Sklearn Code| From Scratch Example|
 |---|---|----|
 |1. [Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb) |[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear%20Regression.py)|Value|
