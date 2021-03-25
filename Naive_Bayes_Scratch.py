@@ -66,3 +66,23 @@ def posterior_probs(self, x):
 
 
 
+# Fitting the model
+
+def fit(self, X_values, Y_values):
+
+    #Class variables
+    self.classes = np.unique(Y_values)
+    self.count = len(self.classes)
+    self,feature_nums = Y_values.shape[1]
+    self.rows = Y_values.shape[0]
+
+    #Calculate statistics
+    self.sum_stats(X_values, Y_values)
+    self.priors(X_values, Y_values)
+
+
+#Predicting
+
+def pred(self, Y_values):
+    preds = [self.posterior_probs(f) for f in Y_values.to_numpy()]
+    return preds
