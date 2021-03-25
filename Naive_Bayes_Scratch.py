@@ -2,12 +2,12 @@
 import numpy as np
 from scipy.stats import norm
 from numpy import mean, std
-
-# Before step one
-
-# Get the data and clean
+from sklearn.datasets import make_blobs
 
 
+# Get the data and clean (In this case we are using already cleaned data)
+
+X_values, Y_values = make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
 
 
 # Calculating summary stats
@@ -44,14 +44,19 @@ def guassian_pdf(self, class_idx, x):
 
  def priors(self, X_values, Y_values):
      '''
-        Probabilities of belonging to each class
+        Parameters:
+        X_values - array of shape(n_samples, n_features)
+        Y_values - array of shape(n_samples)
+        
+        Returns:
+        Prior Probabilities or frequency ratio of each class in the dataset
     '''
-     self.priors = (X-values.groupby(Y_values).apply(lambda x: len(x))/len(self.rows)).to_numpy()
+     self.priors = (X_values.groupby(Y_values).apply(lambda x: len(x))/len(self.rows)).to_numpy()
 
      return self.priors
 
 
- # Posterior probabilities
+ # Posterior probabilities (Probabilities of samples belonging in a certain class)
 
 def posterior_probs(self, x):
     posteriors = []
@@ -81,8 +86,14 @@ def fit(self, X_values, Y_values):
     self.priors(X_values, Y_values)
 
 
-#Predicting
+#Predicting values
 
-def pred(self, Y_values):
+def predict(self, Y_values):
+    '''
+    Params:
+    X-values array shape (n_samples, n_features)
+    Returns:
+    Y_values array shape (n_samples)
+    '''
     preds = [self.posterior_probs(f) for f in Y_values.to_numpy()]
     return preds
