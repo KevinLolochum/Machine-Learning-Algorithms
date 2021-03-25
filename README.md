@@ -11,7 +11,7 @@ Prepared using info from several resources including documentation and this [boo
 |---|---|----|
 |1. [Linear Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear_Regression.ipynb) |[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Linear%20Regression.py)|Value|
 |2. [Logistic Regression](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Logistic_Regression.ipynb) |[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Logistic%20Regression.py)|Value|
-|3. [Naive Bayes](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive_Bayes.ipynb) |[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive%20Bayes.py)|Value|
+|3. [Naive Bayes](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive_Bayes.ipynb) |[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Naive%20Bayes.py)|[Code](https://github.com/KevinLolochum/Machine-Learning-Algorithms/blob/main/Naive_Bayes_Scratch.py)|
 |4. [K- Nearest Neighbors (KNN)](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/K_Nearest_Neighbors.ipynb)|[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/KNNs.py)|Value|
 |5. [Decison Trees](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Decision_Trees.ipynb)|[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Decision%20Trees.py)|Value|
 |6. [Random Forest](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Random_Forest.ipynb)|[Sklearn Code](https://github.com/KevinLolochum/Top-Ten-Machine-Learning/blob/main/Random%20Forest.py)|Value|
