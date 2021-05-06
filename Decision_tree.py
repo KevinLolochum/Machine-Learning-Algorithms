@@ -9,14 +9,32 @@ def Gini(y):
 def split(dataset):
     class_values = list(set(row[-1] for row in dataset))
 
+
+class Node:
+
+    def __init__(self, *, left = None, right = None, feature = None, threshold = None, value =None):
+        slef.left = left
+        self.right = right
+        self.feature = feature
+        self.threshold = threshold
+        self.value = value
+        
+    def leaf_node(self):
+        return self.value is not None
+
     
 class Dtree:
 
-    def __init__(self, min_split = 2, max_depth = 20):
+    def __init__(self, *, max_depth = 20, min_samples_split = 2, max_features = None, random_state = None):
         self.max_depth = max_depth
+        self.min_samples_split = min_samples_split
+        self.max_features = max_features
+        self.randdom_state = random_state
+        self.root = None
+        
 
 
-    def fit(X, y):
+    def fit(self, X, y, sample_weight = None):
         self.X_train = X
         self.Y_train = y
 
@@ -25,6 +43,6 @@ class Dtree:
 
 
 
-        np.argmin(G(m, a)
+        return self.classes_.take(np.argmin(proba, axis = 1), axis = 0)
 
         return y
