@@ -4,7 +4,7 @@ This is a cheatsheet for comparing top ten related machine learning concepts.
 The goal of the cheatsheet is to explain ML concepts to a layman/intermediate, hiring manager and a programmer.
 Starting off with top ten ML models.
 
-## Top ten machine learning models
+### Top ten machine learning models
 Prepared using info from several resources including documentation, this [book](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) and AI lectures on [MIT OpenCourseWare](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw).
 
 1. With the SKlearn code I simply write the code that values can be plugged into to return the classification or regression results
